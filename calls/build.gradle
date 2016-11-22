@@ -5,13 +5,7 @@ dependencies {
 }
 
 ext {
-    PUBLISH_GROUP_ID = "com.abangfadli.calls"
-    PUBLISH_ARTIFACT_ID = "calls"
-    PUBLISH_VERSION = "1.0.0"
-}
-
-ext {
-    bintrayRepo = 'android-lib'
+    bintrayRepo = 'maven'
     bintrayName = 'calls'
 
     publishedGroupId = 'com.abangfadli.calls'
@@ -23,7 +17,7 @@ ext {
     siteUrl = 'https://github.com/abangfadli/calls'
     gitUrl = 'https://github.com/abangfadli/calls.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.2'
 
     developerId = 'abangfadli'
     developerName = 'Ahmad Fadli'
